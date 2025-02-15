@@ -1,9 +1,11 @@
 # CLINIKK_TV BACKEND
 
 ## Project Overview
+```md
 Clinikk TV is a backend service that provides users access to health-related content in the form of audio and video.
 This project is a Proof of Concept (POC) for Clinikk TV's backend API, enabling user authentication, subscription based access, 
 media upload, retrieval, streaming, and user interaction.
+```
 
 ## Table of Contents
 ```md
@@ -18,11 +20,13 @@ License
 Author
 ```
 ## Tech Stack
+```md
 Node.js
 Express.js
 MongoDB with Mongoose
 JSON Web Token (JWT) authentication
 AWS SDK for S3 integration
+```
 
 ## Directory Structure
 ```md
@@ -54,13 +58,16 @@ its-voidsh69-media_backend/
 └── errors.js
 ```
 ## Installation and Setup
+```md
 git clone https://github.com/yourusername/its-voidsh69-media_backend.git
 cd its-voidsh69-media_backend
-
+```
 ## Install dependencies:
+```md
 npm install
-
+```
 ## Environment Variables
+```md
 config/default.json
 PORT=5000
 DB_URI=mongodb+srv://your-mongodb-uri
@@ -68,15 +75,16 @@ JWT_SECRET=your-secret-key
 AWS_ACCESS_KEY=your-aws-access-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret-key
 AWS_REGION=your-aws-region
-
+```
 ## Running the Backend Service
+```md
 Start the server in production mode:
 npm start
 Run in development mode (with hot-reloading using Nodemon):
 npm run dev
-
+```
 ## API Endpoints
-
+```md
 ### User Authentication _(Public)_
 | Method | Endpoint            | Description                   |
 |--------|---------------------|-------------------------------|
@@ -103,9 +111,10 @@ npm run dev
 | POST   | /api/likes/:contentId    | Like or unlike a content        |
 | GET    | /api/liked-content       | Get liked content of user       |
 | GET    | /api/watch-history       | Get user watch history          |
-
+```
 
 ## Design Approach
+```md
 The backend follows a modular service-based architecture to separate concerns, making it scalable and maintainable.
 
 Authentication: JWT-based authentication ensures security.
@@ -117,9 +126,14 @@ models/ contains database schemas.
 routes/ defines API endpoints.
 services/ handles business logic separately from routes.
 middleware/ contains authentication logic.
+```
 
 ## License
+```md
 This project is for educational purpose.
+```
 
 ## Author
+```md
 SUMIT(sumit22b@iiitg.ac.in)
+```
