@@ -1,7 +1,7 @@
 // like_content_route.js
 const express = require('express');
 const router = express.Router();
-const likedContentService = require('../services/liked_content_service'); // Adjust the path
+const likedContentService = require('../services/liked_content_service');
 const {NotFoundError} = require("../utils/errors");
 const mongoose = require('mongoose');
 // GET /api/liked_content - Get liked video content for the authenticated user
