@@ -24,6 +24,7 @@ JSON Web Token (JWT) authentication
 AWS SDK for S3 integration
 
 ## Directory Structure
+'''bash
 its-voidsh69-media_backend/
 ├── app.js # Main entry point
 ├── package.json # Dependencies and scripts
@@ -50,7 +51,7 @@ its-voidsh69-media_backend/
 │ └── watch_history_service.js
 └── utils/
 └── errors.js
-
+'''
 ## Installation and Setup
 git clone https://github.com/yourusername/its-voidsh69-media_backend.git
 cd its-voidsh69-media_backend
