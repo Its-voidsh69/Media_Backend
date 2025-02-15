@@ -25,31 +25,31 @@ AWS SDK for S3 integration
 
 ## Directory Structure
 its-voidsh69-media_backend/
-├── app.js               # Main entry point
-├── package.json         # Dependencies and scripts
-├── middleware/          # Authentication middleware
-│   └── auth.js
-├── models/              # Mongoose schemas
-│   ├── comment.js
-│   ├── content.js
-│   ├── like.js
-│   └── user.js
-├── routes/              # API endpoints
-│   ├── comment_routes.js
-│   ├── content_routes.js
-│   ├── like_routes.js
-│   ├── liked_content_routes.js
-│   ├── user_routes.js
-│   └── watch_history_routes.js
-├── services/            # Business logic
-│   ├── comment_service.js
-│   ├── content_service.js
-│   ├── like_service.js
-│   ├── liked_content_service.js
-│   ├── user_service.js
-│   └── watch_history_service.js
+├── app.js # Main entry point
+├── package.json # Dependencies and scripts
+├── middleware/ # Authentication middleware
+│ └── auth.js
+├── models/ # Mongoose schemas
+│ ├── comment.js
+│ ├── content.js
+│ ├── like.js
+│ └── user.js
+├── routes/ # API endpoints
+│ ├── comment_routes.js
+│ ├── content_routes.js
+│ ├── like_routes.js
+│ ├── liked_content_routes.js
+│ ├── user_routes.js
+│ └── watch_history_routes.js
+├── services/ # Business logic
+│ ├── comment_service.js
+│ ├── content_service.js
+│ ├── like_service.js
+│ ├── liked_content_service.js
+│ ├── user_service.js
+│ └── watch_history_service.js
 └── utils/
-    └── errors.js
+└── errors.js
 
 ## Installation and Setup
 git clone https://github.com/yourusername/its-voidsh69-media_backend.git
