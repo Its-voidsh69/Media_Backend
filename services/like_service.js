@@ -7,11 +7,9 @@ exports.likeContent = async (contentId, userId) => {
     try {
         const existingLike = await Like.findOne({ content: contentId, likedBy: userId });
         if (existingLike) {
-            // If the user has already liked it, remove the like
             await Like.findByIdAndDelete(existingLike._id);
             return { message: 'Content unliked successfully' };
         } else {
-            // Otherwise, create a new like
             const newLike = new Like({ content: contentId, likedBy: userId });
             await newLike.save();
             return { message: 'Content liked successfully' };
