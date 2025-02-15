@@ -6,6 +6,7 @@ This project is a Proof of Concept (POC) for Clinikk TV's backend API, enabling 
 media upload, retrieval, streaming, and user interaction.
 
 ## Table of Contents
+```md
 Tech Stack
 Directory Structure
 Installation and Setup
@@ -15,7 +16,7 @@ API Endpoints
 Design Approach
 License
 Author
-
+```
 ## Tech Stack
 Node.js
 Express.js
