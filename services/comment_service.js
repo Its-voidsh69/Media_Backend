@@ -1,5 +1,5 @@
-const Comment = require('../models/comment'); //Imported and used
-const { NotFoundError, UnauthorizedError } = require('../utils/errors'); //Import errors
+const Comment = require('../models/comment'); 
+const { NotFoundError, UnauthorizedError } = require('../utils/errors'); 
 
 // Create a new comment
 exports.createComment = async (contentId, userId, text) => {
