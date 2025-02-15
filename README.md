@@ -2,7 +2,9 @@
 
 ## Project Overview
 ```md
-Clinikk TV is a backend service that provides users access to health-related content in the form of audio and video.This project is a Proof of Concept (POC) for Clinikk TV's backend API, enabling user authentication, subscription based access, media upload, retrieval, streaming, and user interaction.
+Clinikk TV is a backend service that provides users access to health-related content in the form of audio and video.
+This project is a Proof of Concept (POC) for Clinikk TV's backend API, enabling user authentication,
+subscription based access, media upload, retrieval, streaming, and user interaction.
 ```
 
 ## Table of Contents
