@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 async function addToWatchHistory(userId, contentId) {
   try {
       if (!mongoose.Types.ObjectId.isValid(userId)) {
-          throw new BadRequestError('Invalid user ID format'); // Or NotFoundError if you prefer
+          throw new BadRequestError('Invalid user ID format'); 
       }
 
       if (!mongoose.Types.ObjectId.isValid(contentId)) {
